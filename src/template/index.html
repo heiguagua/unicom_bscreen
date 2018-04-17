@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
+	<title>政务数据资产可视化系统</title>
+</head>
+<style>
+
+</style>
+<body>
+	<div id="app" style="height:100%">
+		<router-view></router-view>
+	</div>
+</body>
+<script>
+	document.body.addEventListener('touchmove', function(event) {
+
+event.preventDefault();
+}, false); 
+document.body.addEventListener('touchstart', function(event) {
+
+event.preventDefault();
+}, false); 
+document.body.addEventListener('gesturechange', function(event) {
+
+event.preventDefault();
+}, false); 
+</script>
+</html>
